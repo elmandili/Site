@@ -1,0 +1,39 @@
+tr
+{
+    height: 30px;
+    border: 1px solid black;
+}
+th
+{
+    border: 1px solid black;
+}
+td
+{
+    border: 1px solid black;
+}
+
+.mat-column-position 
+{
+    width: 20%;
+}
+
+.mat-column-name
+{
+    width: 10%;
+}
+
+.mat-column-weight
+{
+    width: 20%;
+}
+
+.mat-column-symbol
+{
+    width: 20%;
+}
+
+.mat-column-newCol
+{
+    width: 60%
+}
+

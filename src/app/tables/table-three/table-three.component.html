@@ -1,0 +1,49 @@
+<table mat-table [dataSource]="dataSourceThree" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef>  </th>
+      <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> 鱼雷重罐最小安全 </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <th mat-header-cell *matHeaderCellDef> 鱼雷重罐最优 </th>
+      <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="symbol">
+      <th mat-header-cell *matHeaderCellDef> 鱼雷重罐最大安全 </th>
+      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="newCol">
+        <th mat-header-cell *matHeaderCellDef>  口重罐最小安全 </th>
+        <td mat-cell *matCellDef="let element"> {{element.newCol}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="newColTwo">
+        <th mat-header-cell *matHeaderCellDef> 敞口重罐最优 </th>
+        <td mat-cell *matCellDef="let element"> {{element.newColTwo}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="newColThree">
+        <th mat-header-cell *matHeaderCellDef> 不口重罐最大安全 </th>
+        <td mat-cell *matCellDef="let element"> {{element.newColThree}} </td>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsThree"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumnsThree;"></tr>
+  </table>
+  
+  
