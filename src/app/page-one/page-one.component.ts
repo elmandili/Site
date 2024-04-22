@@ -13,3 +13,6 @@ import { TableThreeComponent } from '../tables/table-three/table-three.component
 export class PageOneComponent {
 
 }
+
+
+let variableTwo: string;
