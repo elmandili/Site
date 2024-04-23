@@ -16,3 +16,5 @@ export class PageOneComponent {
 
 
 let variableTwo: string;
+let hal3ar: string;
+let haaal3ar: string;
