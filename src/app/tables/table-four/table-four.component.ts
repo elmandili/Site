@@ -9,12 +9,12 @@ export interface PeriodicElement {
   symbol: string;
   newCol: string;
   newColTwo: string;
+  newColThree: string;
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {position: '1', name: 'Hydrogen', weight: '1.0079', symbol: 'H', newCol: '', newColTwo: ''},
-  {position: '2', name: 'Helium', weight: '4.0026', symbol: 'He', newCol: '', newColTwo: ''},
-  {position: '3', name: 'Lithium', weight: '6.941', symbol: 'Li', newCol: '', newColTwo: ''},
+  {position: '1', name: 'Hydrogen', weight: '1.0079', symbol: 'H', newCol: '', newColTwo: '', newColThree: ''},
+ 
   
 ];
 
@@ -26,6 +26,6 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrl: './table-four.component.css'
 })
 export class TableFourComponent {
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol', 'newCol', 'newColTwo'];
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol', 'newCol', 'newColTwo', 'newColThree'];
   dataSource = ELEMENT_DATA;
 }
