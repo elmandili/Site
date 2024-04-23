@@ -1,3 +1,43 @@
 
+<mat-drawer-container>
+    <mat-drawer #drawer opened mode="side">
+        <mat-nav-list>
+            
+            <mat-list-item>
+                <a href="/page-one" style="text-decoration: none;"><h3>铁水消耗与计划生成</h3></a>
+                
+                
+            </mat-list-item>
+            <mat-list-item>
+                <a href="/page-two" style="text-decoration: none;"><h3>铁水分配当班计</h3></a>
+                
+                
+            </mat-list-item>
+            <mat-list-item>
+                <h3>历史分配计划查询</h3>
+                
+            </mat-list-item>
 
-<app-nav></app-nav>
+            <mat-list-item>
+                <h3>铁钢平衡复盘</h3>
+                
+            </mat-list-item>
+            <mat-list-item>
+                <h3>铁厂出铁计划查询</h3>
+                
+            </mat-list-item>
+        </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="drawer-container">
+            <router-outlet></router-outlet>
+            
+        </div>
+        
+    </mat-drawer-content>
+</mat-drawer-container>
+
+
+
+
+

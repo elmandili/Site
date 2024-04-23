@@ -1,0 +1,17 @@
+
+body
+{
+  background-color: #f0f2f5;
+}
+
+mat-drawer
+{
+  width: 200px;
+  background-color: #202d3d;
+  position: fixed;  
+}
+
+mat-list-item h3
+{
+  color: white;
+}

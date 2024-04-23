@@ -1,8 +1,15 @@
+
+.section-container
+{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
 .table-four-container
 {
     width: 90%;
     margin: auto;
-    background-color: white;
+    
     
 }
 
@@ -26,7 +33,7 @@
 {
     width: 50%;
     margin: auto;
-    
+    margin-bottom: -30px;
 }
 
 .content ul li
@@ -45,4 +52,13 @@
 }
 
 
+.table-four-buttons-container
+{
+    float: right;
+    margin-bottom: 0;
+}
+.table-four-buttons-container button
+{
+    margin-left: 50px;
+}
 
